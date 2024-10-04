@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7f5e3;
+    /* Light green background */
+}
+
+header {
+    background: #4caf50;
+    /* Dark green header */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    /* Added padding around the container */
+}
+
+.sidebar {
+    width: 20%;
+    background: #f2f2f2;
+    /* Light gray for sidebar */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #4caf50;
+}
+
+main {
+    width: 80%;
+    padding: 20px;
+    /* Added padding in main */
+}
+
+.hero {
+    position: relative;
+    margin-bottom: 20px;
+    /* Added margin to separate hero section */
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* Rounded corners for the hero image */
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background for text */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cta-button {
+    background: #ff9800;
+    /* Orange button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px 0;
+    /* Increased margin for better separation */
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin: 10px 0;
+    /* Spacing between inputs */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background: #4caf50;
+    /* Green button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #45a049;
+    /* Darker green on hover */
+}
+
+.video-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+video {
+    width: 80%;
+    border-radius: 5px;
+    /* Rounded corners for video */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #4caf50;
+    /* Dark green footer */
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
